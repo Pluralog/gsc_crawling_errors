@@ -280,7 +280,3 @@ true_not_found <- not_found %>%
             by = "url_not_found")
 
 write_csv(true_not_found, path_to_csv_export)
-
-
-
-
