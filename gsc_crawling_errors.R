@@ -48,6 +48,7 @@ client_secret <- "XXXXXXXXXXXXXXXXXXXXXXX"
 
 options(googleAuthR.client_id = client_id,
         googleAuthR.client_secret = client_secret,
+        googleAuthR.httr_oauth_cache = TRUE,
         googleAuthR.scopes.selected = "https://www.googleapis.com/auth/webmasters")
 
 
